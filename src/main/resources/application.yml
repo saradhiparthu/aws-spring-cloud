@@ -1,0 +1,11 @@
+spring:
+  server:
+    port: 8080
+  application:
+    name: login-service
+spring.profile.active: development
+aws:
+  region: us-east-2
+  services:
+    secrets-manager:
+      secretId: development/app/greetings-key
